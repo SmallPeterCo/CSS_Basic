@@ -1,0 +1,26 @@
+/* a div le damos un fomato con color de background y border */
+div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 2px solid black;
+    margin: 20px;
+}
+/* A h1 le damos un color de background */
+h1 {
+    background-color: blue;
+}
+/* A los input les damos un border negro y un background gris */
+/*los input estan dentro de un form, su 50% es la mitad del form*/
+input {
+    border: 2px solid black;
+    padding: 3px;
+    background: gray;
+    width: 50%;
+}
+
+/* los 500px del form representa el 100% de su contenedor*/
+form {
+    width: 500px;
+    height: 100px;
+}

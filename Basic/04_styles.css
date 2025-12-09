@@ -1,0 +1,29 @@
+/* Estilos CSS para encabezados de nivel 1 */
+h1{color: darkorange; /* cambio de color a naranja oscuro */
+    font-family: 'Georgia', serif; /* cambio de fuente a Georgia, sino carga georgia toma a serif */
+    font-size: 32px; /* tamaño de fuente a 32 píxeles */
+    font-weight: 700; /* grosor de fuente a 700 */
+    font-style: normal;
+    text-align: center; /* alineación de texto al centro */
+}
+/* Estilos CSS para párrafos*/
+p{color: blueviolet; /* cambio de color a azul violeta */
+    font-family: 'Arial', sans-serif; /* cambio de fuente a Arial, sino carga arial toma a sans-serif */
+    font-size: 16px; /* tamaño de fuente a 16 píxeles */
+    font-weight: 500; /* grosor de fuente a 500 */
+    font-style: italic; /* estilo de fuente en cursiva */
+    text-align: left; /* alineación de texto a la izquierda */
+    text-decoration: underline; /* subrayado de texto */
+    line-height: 1.5; /* altura de entre lineas */
+    letter-spacing: 1px; /* espaciado entre letras */
+}
+/* Estilos CSS para elementos span */
+span{color: rgb(148, 41, 6); /* cambio de color a verde azulado */
+    font-family: 'Courier New', monospace; /* cambio de fuente a Courier New, sino carga courier new toma a monospace */
+    font-size: 14px; /* tamaño de fuente a 14 píxeles */
+    font-weight: 400; /* grosor de fuente a 400 */
+    font-style: normal;
+    text-align: right; /* alineación de texto a la derecha */
+    text-decoration: line-through; /* texto con línea tachada */
+    text-transform: uppercase;
+}

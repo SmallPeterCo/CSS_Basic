@@ -1,0 +1,23 @@
+body{
+    background-color:blueviolet;
+    font-family: Arial, sans-serif;
+}
+
+/*le asignamos color a la caja 1*/
+.box1 {
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: left;
+}
+
+h2 {
+    color: darkgreen;
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,16 @@
+#title_principal{
+    background-color: aquamarine;
+    color: rgb(2, 2, 26);
+    text-align: center;
+}
+#area_formulario{
+    background-color:azure;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    text-align:left;
+    margin-top: 2%;
+    }
+body{
+    background-color:blue;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Formulario web        
+    </title>
+    <link rel="stylesheet" href="03_styles.css">
+</head>
+    <body>
+      <div id="logo_UNM">
+        <img src="https://www.uniminuto.edu/sites/default/files/logo-para-web-2024.png" alt="https://www.uniminuto.edu/sites/default/files/2020-10/corporacion-centro-carismatico-minuto-dios.png">
+      </div>
+      <h1 id="title_principal">Resgitro de personas</h1>
+        <div id="area_formulario">
+          <form id="loginForm">
+            <label for="name">Nombres:</label>
+            <input type="text" id="nombre"><br><br>
+            <label for="lastname">Apellidos:</label>
+            <input type="number" id="apellido"><br><br>
+            <label for="phone">Celular:</label>
+            <input type="text" id="celular"><br><br>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo"><br><br>
+            <label for="contraseña" >Contraseña:</label>
+            <input type="password" id="contraseña"><br><br>
+            <button type="submit">Registrar</button>
+          </form>
+
+          <p id="mensaje"></p>
+        </div>
+
+<script>
+
+const form = document.getElementById("loginForm");
+const mensaje = document.getElementById("mensaje");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault(); 
+
+  const email = document.getElementById("correo").value.trim();
+  const password = document.getElementById("contraseña").value;
+
+  if(email === "" || password === "") {
+    mensaje.textContent = "Todos los campos son obligatorios.";
+  } else if(password.length < 6) {
+    mensaje.textContent = "La contraseña debe tener al menos 6 caracteres.";
+  } else {
+    mensaje.textContent = `Login exitoso con el correo: ${correo}`;
+ 
+  }
+});
+
+</script>
+</html>
+ </body>

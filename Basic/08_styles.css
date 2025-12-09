@@ -1,0 +1,36 @@
+body {
+    background-color: lightyellow;
+    font-family: 'Verdana', sans-serif;
+}
+
+h1 {
+    background-color: lightblue;
+    color: darkblue;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.border {
+    background-color: blueviolet;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px; /*Da el espaciado entre cajas*/
+}
+
+.formulario {
+    background-color: lightgray;
+    padding: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+.form_input {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: violet;
+}
+
+.form_label {
+    font-weight: bold;
+    color: darkred;
+}

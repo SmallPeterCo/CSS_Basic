@@ -1,0 +1,11 @@
+body {font-family: Arial, sans-serif;
+      background-color: bisque;
+      }
+h1 {background-color: rgb(120, 100, 0); /*Se puede usar rgb */
+     
+     }
+.boxes {width: 100px;
+        height: 100px;
+        background-color: #48e;/*Se puede usar hexadecimal */
+        margin: 10px;
+        }

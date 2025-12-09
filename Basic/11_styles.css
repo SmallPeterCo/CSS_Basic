@@ -1,0 +1,21 @@
+/*Se pueden usar unidades como pixeles, centimetros o pulgadas esto son medidas absolutas*/
+/*Se pueden tener medidas relativas como %, dependiendo del contenido de padre a hijo*/
+/*el em es una unidad relativa al tamaño de la fuente del elemento padre*/
+/*el rem es una unidad relativa al tamaño de la fuente del elemento raíz (html)*/
+/*el vh y vw son una unidad relativa al 1% de la altura de la ventana gráfica (viewport)*/
+body {background-color: lavenderblush;
+    font-family: Arial, sans-serif;
+    margin: 0.5cm;
+}
+h1 {background-color: cornflowerblue   ;
+    text-align: center;
+    padding: 0.2cm;
+}
+h2 {background-color: lightcoral;
+    margin-top: 0.5cm;
+    padding: 0.3cm;
+}
+p {font-size: 16px;
+    line-height: 1.5;
+    background-color: burlywood;
+}

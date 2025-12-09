@@ -1,0 +1,40 @@
+/* agregamos un estilo al formulario color de fondo verde*/
+/*padding es los bordes externos vs contenido*/
+.formulario {
+    background-color: green;
+    padding: 10px;
+}
+
+/* estilo para las etiquetas del formulario */
+.form_label {
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: center;
+    color: yellow
+}
+
+/* estilo para los inputs del formulario */
+.form_input {
+    padding: 3px;
+    margin: 2px 0;
+    border: 1px solid #ccc;    
+}
+
+/* estilo para el boton del formulario */
+.form_buton {
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.boxes {
+
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
